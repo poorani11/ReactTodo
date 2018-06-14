@@ -13,15 +13,15 @@ describe('Actions', () => {
     });
     
     it('should generate toggle show completed action', () => {
-    var action = {
-      type: 'TOGGLE_SHOW_COMPLETED'
-    };
-    var res = actions.toggleShowCompleted();
+     var action = {
+       type: 'TOGGLE_SHOW_COMPLETED'
+     };
+     var res = actions.toggleShowCompleted();
 
-    expect(res).toEqual(action);
-  });
+     expect(res).toEqual(action);
+   });
 
-  it('should generate add todo action', () => {
+    it('should generate add todo action', () => {
     var action = {
       type: 'ADD_TODO',
       text: 'Thing to do'
